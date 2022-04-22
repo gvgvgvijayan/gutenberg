@@ -13,7 +13,7 @@ const prettierPackage = require( require.resolve( 'prettier/package.json' ) );
 
 const isWPPrettier = prettierPackage.name === 'wp-prettier';
 const customOptions = isWPPrettier
-	? { parenSpacing: true, jsxBracketSameLine: false }
+	? { parenSpacing: true, bracketSameLine: false }
 	: { bracketSameLine: false };
 const customStyleOptions = isWPPrettier ? { parenSpacing: false } : {};
 
