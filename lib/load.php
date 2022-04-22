@@ -117,15 +117,11 @@ require __DIR__ . '/compat/wordpress-6.0/edit-form-blocks.php';
 require __DIR__ . '/experimental/class-theme-json-webfonts-handler.php';
 require __DIR__ . '/experimental/class-wp-theme-json-resolver-gutenberg.php';
 
-/*
- * DO NOT MERGE THIS CHANGE.
- * Don't load the Webfonts API.
 require __DIR__ . '/experimental/register-webfonts-from-theme-json.php';
-require __DIR__ . '/experimental/class-wp-webfonts.php';
+require __DIR__ . '/experimental/class-NEW-web-fonts.php';
 require __DIR__ . '/experimental/class-wp-webfonts-provider.php';
 require __DIR__ . '/experimental/class-wp-webfonts-provider-local.php';
-require __DIR__ . '/experimental/webfonts.php';
- */
+require __DIR__ . '/experimental/web-fonts.php';
 require __DIR__ . '/experimental/blocks.php';
 
 require __DIR__ . '/blocks.php';
