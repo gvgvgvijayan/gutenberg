@@ -22,7 +22,7 @@ class WP_Web_Fonts extends WP_Dependencies {
 		return $this->providers;
 	}
 
-	public function __contstruct() {
+	public function __construct() {
 		/**
 		 * Fires when the WP_Web_Fonts instance is initialized.
 		 *
